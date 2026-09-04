@@ -1,0 +1,39 @@
+{
+  "name": "ceramica-lead-generator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "migrate": "tsx scripts/migrate.ts",
+    "seed": "tsx scripts/seed.ts",
+    "worker": "tsx scripts/worker.ts",
+    "demo": "tsx scripts/demo.ts"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@types/pg": "^8.11.10",
+    "typescript": "^5.7.2",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.3",
+    "postcss": "^8.4.49",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "16.3.4",
+    "@eslint/eslintrc": "^3.2.0",
+    "vitest": "^2.1.8",
+    "tsx": "^4.19.2",
+    "dotenv": "^16.4.7"
+  }
+}
